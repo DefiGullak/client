@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.container {
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.slick-slide img {
+  margin: auto;
+} 
+.HeroUnderlay__Heading {
+  margin: 0 auto;
+  font-weight: 800;
+}
+
+.HeroUnderlay__Heading__Word:not(:last-child) {
+  margin-right: 30px;
+}
+
+.HeroUnderlay__Heading__Word:nth-child(2) {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* opacity: 0; */
+  background-image: -webkit-gradient(linear,right top,left top,from(#7e50ec),color-stop(#bc31ca),color-stop(#de00a3),color-stop(#ee007b),to(#f02056));
+  background-image: linear-gradient(
+270deg
+,#7e50ec,#bc31ca,#de00a3,#ee007b,#f02056);
+  box-shadow: inset 0 0 0 2px #000;
+}
