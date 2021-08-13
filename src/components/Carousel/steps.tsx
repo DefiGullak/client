@@ -11,13 +11,13 @@ export const Steps = () => {
   return [
     <Template
       key="1"
-      title={'Welcome to HODL My Beer'}
+      title={'Welcome to HODL My Gullak'}
       img={hodlTheBeer}
       description={"Ready to HODL your coins with diamond hands? We're here to help you achieve that in 3 simple steps"}
     />,
     <Template
       key="2"
-      title={'Find your favorite Barrel'}
+      title={'Find your favorite Gullak'}
       img={barrels}
       description={
         "Browse through barrels and play around with the filters, find the barrel with your favorite token and expiry you'd like to HODL until."
